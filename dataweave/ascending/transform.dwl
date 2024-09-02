@@ -1,4 +1,4 @@
 %dw 2.0
 output application/json
 ---
-payload orderBy (item -> item)
+payload orderBy ((item, index) -> item)
