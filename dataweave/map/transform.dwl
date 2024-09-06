@@ -1,10 +1,10 @@
 %dw 2.0
 output application/json
 ---
-payload map  {
+payload map ((item, index) -> {
  
-  "customerName": $.name,
-  "customerAge": $.age,
+  "customerName": item.name,
+  "customerAge": item.age,
   "createdOn": now() as Date
 
-}
+})
