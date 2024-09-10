@@ -1,0 +1,9 @@
+{
+  "person": {
+    "name": "John",
+    "hobbies": [
+      ["reading", "swimming"],
+      ["hiking", "cooking"]
+    ]
+  }
+}
