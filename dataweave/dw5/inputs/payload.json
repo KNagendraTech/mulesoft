@@ -1,0 +1,8 @@
+{
+    "videoMp4/mp4": {
+      
+      "source": "HANA",
+      "extensions": ["mp4"]
+
+    }
+}
